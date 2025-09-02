@@ -8,5 +8,9 @@ namespace AppForAzure.Controllers
         {
             return View();
         }
+          public IActionResult Show()
+        {
+            return View();
+        }
     }
 }
